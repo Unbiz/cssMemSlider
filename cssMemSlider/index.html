@@ -10,9 +10,54 @@
 </head>
 
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header class="page-header">
+    <h1 class="page-header__title">cssMemSlider</h1>
+  </header>
+  <main class="page-main">
+    <div class="page-main__slider slider">
+      <div class="slider__container">
+        <div class="slider__buttons-wrapper">
+          <label class="slider__button-area" for="radio1">
+            <input class="button" type="radio" name="radio1" id="radio1" checked>
+          </label>
+          <label class="slider__button-area" for="radio1">
+            <input class="button" type="radio" name="radio1" id="radio1">
+          </label>
+          <label class="slider__button-area" for="radio1">
+            <input class="button" type="radio" name="radio1" id="radio1">
+          </label>
+          <label class="slider__button-area" for="radio1">
+            <input class="button" type="radio" name="radio1" id="radio1">
+          </label>
+        </div>
+        <ul class="slider__slides-list">
+          <li class="slider__slide-item">
+            <img src="./assets/slide1.jpg" alt="slide1">
+          </li>
+          <li class="slider__slide-item">
+            <img src="./assets/slide2.jpg" alt="slide2">
+          </li>
+          <li class="slider__slide-item">
+            <img src="./assets/slide3.jpg" alt="slide3">
+          </li>
+          <li class="slider__slide-item">
+            <img src="./assets/slide4.jpg" alt="slide4">
+          </li>
+        </ul>
+        <div class="slider__text-wrapper">
+          <div class="slider__text">Slider text 1</div>
+          <div class="slider__text">Slider text 1</div>
+          <div class="slider__text">Slider text 1</div>
+          <div class="slider__text">Slider text 1</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <p class="page-footer__copy">© 2021</p>
+    <a href="https://rs.school/" class="page-footer__school-link">The Rolling Scopes School</a>
+    <a href="https://github.com/Unbiz" class="page-footer__user-link">Unbiz</a>
+  </footer>
 </body>
 
 </html>
